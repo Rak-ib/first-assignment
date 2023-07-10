@@ -1,0 +1,207 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* header section */
+
+.head {
+    background-color: #E554731A;
+    display: flex;
+    gap: 45px;
+    padding: 50px 100px 0px 170px;
+}
+
+.head-container1 {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: left;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+.head-container {
+    /* width: 40%; */
+    margin-right: 100px;
+    /* border: 1px solid black; */
+}
+
+
+.head-img {
+    width: 500px;
+}
+
+.title {
+    color: #272727;
+    /* font-family: Lato; */
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: 30px; */
+    width: 80%;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 18px 37px;
+    border: 0px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+/* main */
+
+
+
+
+
+/* hot-deal */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 100px 50px 280px;
+    margin-top: 100px;
+}
+
+.hot-deal-container {
+    display: flex;
+    gap: 20px;
+}
+
+.hot-deal-container1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    padding-top: 80px;
+
+}
+
+#one {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 5px;
+    text-align: center;
+    /* font-style: normal; */
+    font-weight: 600;
+    width: 90%;
+    margin: 10px auto;
+    margin-bottom: 35px;
+}
+
+.hot-title {
+    color: #272727;
+    /* font-family: Lato; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: bolder;
+    margin-bottom: 0px;
+    /* line-height: normal; */
+}
+
+
+/* instagram */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.insta {
+    margin-top: 100px;
+}
+
+#id {
+    color: #272727;
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* margin-bottom: 15px; */
+    /* line-height: normal; */
+}
+
+.insta-container {
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 20px;
+    padding: 0px 160px;
+    justify-content: space-between;
+    /* margin: 20px; */
+
+}
+
+#insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    text-align: center;
+    /* font-style: normal; */
+    font-weight: 600;
+    width: 40%;
+    margin: 0px auto;
+    /* margin-bottom: 15px; */
+}
+
+
+.insta-pic {
+    width: 270px; 
+    /* height: 300px;  */
+}
+
+
+/* latest update */
+
+
+.latest{
+    margin: 100px 175px;
+    border: 1px solid white;
+    background-image: url('../Flower_Asset/Rectangle_9.png');
+    
+}
+form{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 115px;
+}
+.latest-container{
+    margin-top: 120px;
+}
+form input{
+    width: 400px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: 0px;
+}
+.update-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    text-align: center;
+    /* font-style: normal; */
+    font-weight: 600;
+    width: 40%;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+}
