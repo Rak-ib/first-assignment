@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
@@ -9,15 +9,15 @@ body {
 .head {
     background-color: #E554731A;
     display: flex;
-    gap: 45px;
-    padding: 50px 100px 0px 170px;
+    gap: 42px;
+    padding: 50px 120px 0px 200px;
 }
 
 .head-container1 {
     margin-top: 40px;
     padding-top: 20px;
     text-align: left;
-    width: 60%;
+    width: 50%;
     /* border: 1px solid black; */
 }
 
@@ -25,11 +25,15 @@ body {
     /* width: 40%; */
     margin-right: 100px;
     /* border: 1px solid black; */
+    margin-bottom: 0px;
 }
 
 
 .head-img {
     width: 500px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
 }
 
 .title {
@@ -60,6 +64,7 @@ body {
     font-size: 15px;
     /* font-style: normal; */
     font-weight: 700;
+    margin-bottom: 0px;
     /* line-height: normal; */
 }
 
@@ -71,7 +76,7 @@ body {
 
 /* hot-deal */
 section {
-    margin: 100px 0px;
+    margin: 150px 0px;
 }
 
 .featured-title {
@@ -321,7 +326,7 @@ h6.title1 {
     font-size: 35px;
     /* font-style: normal; */
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     /* margin-bottom: 15px; */
     /* line-height: normal; */
 }
@@ -344,7 +349,9 @@ h6.title1 {
     /* font-style: normal; */
     font-weight: 600;
     width: 40%;
-    margin: 0px auto;
+    margin: 25px auto;
+    padding-bottom: 10px;
+
     /* margin-bottom: 15px; */
 }
 
