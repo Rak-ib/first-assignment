@@ -70,6 +70,91 @@ body {
 
 
 /* hot-deal */
+section {
+    margin: 100px 0px;
+}
+
+.featured-title {
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    width: 35%;
+    margin: 15px auto;
+    /* font-style: normal; */
+    font-weight: 700;
+}
+
+.featured-container {
+    margin: 20px 180px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+
+.container-box {
+    /* border: 3px solid yellow; */
+}
+
+h6.title {
+    margin-top: 15px;
+    color: #272727;
+    text-align: center;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: 35px; */
+    text-decoration-line: underline;
+}
+
+.feature-img1 {
+    width: 260px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 60px 50px 0px 50px;
+
+}
+
+.feature-img2 {
+    width: 280px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 110px 50px 30px 50px;
+
+}
+
+.feature-img3 {
+    width: 265px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 22px 50px 0px 50px;
+
+}
+
+.feature {
+    text-align: center;
+}
+
+
+
+
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -137,6 +222,7 @@ body {
     font-size: 35px;
     /* font-style: normal; */
     font-weight: 800;
+    margin-bottom: 5px;
     /* margin-bottom: 15px; */
     /* line-height: normal; */
 }
@@ -165,35 +251,50 @@ body {
 
 
 .insta-pic {
-    width: 270px; 
+    width: 270px;
     /* height: 300px;  */
 }
 
 
 /* latest update */
 
-
-.latest{
-    margin: 100px 175px;
-    border: 1px solid white;
-    background-image: url('../Flower_Asset/Rectangle_9.png');
-    
+.off {
+    color: #E55473;
 }
-form{
+
+.try {
+    width: 1160px;
+    height: 362px;
+    margin-bottom: 150px;
+}
+
+.latest {
+    margin: 100px 175px;
+    border: 10px solid white;
+    background-image: url('../Flower_Asset/Rectangle_9.png');
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+form {
     align-items: center;
     text-align: center;
-    margin-bottom: 115px;
+    margin-bottom: 10px;
 }
-.latest-container{
-    margin-top: 120px;
+
+.latest-container {
+    margin-top: 80px;
 }
-form input{
+
+form input {
     width: 400px;
     padding: 18px 30px;
     border-radius: 5px;
     border: 0px;
 }
-.update-description{
+
+.update-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 15px;
@@ -201,7 +302,58 @@ form input{
     /* font-style: normal; */
     font-weight: 600;
     width: 40%;
-    margin: 30px auto;
+    margin: 18px auto;
     margin-bottom: 50px;
     /* border: 1px solid black; */
+}
+
+
+/* footer design */
+
+footer {
+    background-color: #111010;
+    padding: 100px 200px;
+}
+
+.footer-title {
+    /* color: #272727; */
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 42px;
+    /* font-style: normal; */
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+#flower {
+    color: #E55473;
+}
+
+#shop {
+    color: #FFFFFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    width: 40%;
+    margin: 5px auto;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* border: 1px solid white; */
+    /* line-height: 30px; */
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    width: 40%;
+    margin: 15px auto;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
 }
