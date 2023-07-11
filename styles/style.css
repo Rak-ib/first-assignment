@@ -194,6 +194,107 @@ h6.title {
     /* line-height: normal; */
 }
 
+/* second bonus */
+
+.service-pic1{
+    width: 23%;
+}
+.service-pic2{
+    width: 28%;
+
+}
+.service-pic3{
+    width: 45%;
+}
+.service-container {
+    border-radius: 8px;
+    margin: 0px 180px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    padding: 80px 150px;
+    justify-content: space-between;
+}
+.sercive-box{
+    text-align: center;
+}
+.service-description{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 35px;
+}
+
+
+
+/* winter flower */
+
+.winter-title {
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 35px;
+    /* font-style: normal; */
+    /* color: #FFFAFA; */
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.feature-img11 {
+    width: 280px;
+    border-radius: 0px 150px 0px 150px;
+    /* background: rgba(167, 33, 98, 0.15); */
+    margin-bottom: 0px;
+    margin-top: 10px;
+    /* padding: 60px 50px 0px 50px; */
+    box-shadow: 7px 4px 11px #8e8686;
+
+}
+
+.feature-img12 {
+    width: 280px;
+    border-radius: 0px 170px 0px 150px;
+    /* background: rgba(5, 151, 160, 0.15); */
+    margin-bottom: 0px;
+    margin-top: 10px;
+    /* padding: 60px 50px 0px 50px; */
+    box-shadow: 7px 4px 11px #8e8686;
+
+}
+
+.feature-img13 {
+    width: 270px;
+    border-radius: 0px 150px 0px 150px;
+    /* background: rgba(71, 125, 17, 0.15); */
+    margin-bottom: 0px;
+    margin-top: 10px;
+    box-shadow: 7px 4px 11px #8e8686;
+    /* padding: 60px 50px 0px 50px; */
+
+}
+
+.featured-container1 {
+    margin: 20px 180px;
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+    background-color: #a89999;
+    padding: 70px 80px 0px 120px;
+}
+
+h6.title1 {
+    margin-top: 15px;
+    color: #FFFAFA;
+    text-align: center;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: 35px; */
+
+}
 
 /* instagram */
 
@@ -261,8 +362,8 @@ h6.title {
 }
 
 .try {
-    width: 1160px;
-    height: 362px;
+    width: 1156px;
+    height: 361px;
     margin-bottom: 150px;
 }
 
@@ -286,7 +387,7 @@ form {
 }
 
 form input {
-    width: 400px;
+    width: 500px;
     padding: 18px 30px;
     border-radius: 5px;
     border: 0px;
